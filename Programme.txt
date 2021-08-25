@@ -1,10 +1,3 @@
-
-%%bash
-# ^^^ The commands below are to be executed as Linux Bash commands.
-# You can get the same output by opening a terminal connection to the device and executing these commands manually.
-dmesg | grep -v disconnect | grep -Eo "tty(ACM|USB)." | tail -1
- 
- 
 import serial
 import time
 import RPi.GPIO as GPIO
@@ -15,7 +8,6 @@ import RPi.GPIO as GPIO
 # e.g. /dev/ttyUSB0, /dev/ttyUSB1, /dev/ttyACM0, ...
 #  as you discovered in the steps above
 ser = serial.Serial('/dev/ttyACM0', 9600)
- 
  
  
 # loop until manually stopped
