@@ -1,12 +1,12 @@
 # Temperature Measurement and Fan Control based on IoT
 
-This project implements an IoT solution to measure temperature using a DHT11 sensor and control a fan based on the temperature readings. It utilizes Arduino, Raspberry Pi, an LCD display, and a fan.
+This project implements an intelligent IoT-based system for monitoring temperature and humidity using a DHT11 sensor, and automatically controls the fan based on predefined environmental thresholds. Built with Arduino, Raspberry Pi, and leveraging real-time data monitoring, this project ensures efficient environmental management through automation.
 
 ## Components
 - DHT11 sensor
 - Arduino Uno
 - Raspberry Pi-3
-- LED Display
+- LCD Display
 - Fan
 
 ## Setup and Usage
